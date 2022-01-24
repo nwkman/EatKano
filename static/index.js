@@ -196,7 +196,7 @@ function getLastSecondCPS() {
 
 function creatTimeText(n) {
     // Yeah. Let's do it in the most brute force way.
-    return `&nbsp;TIME: ${_gameTimeNum}&nbsp;CPS: ${getLastSecondCPS()}`;
+    return `&nbsp;TIME: ${n}&nbsp;CPS: ${getLastSecondCPS()}`;
 }
 let _ttreg = / t{1,2}(\d+)/,
     _clearttClsReg = / t{1,2}\d+| bad/;
